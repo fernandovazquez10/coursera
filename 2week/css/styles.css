@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+	padding-top: 2%;
+	background-color: #FA6546;
+}
+#title {
+	text-align: center;
+	font-size: 175%;
+	color: white;
+}
+#pastor , #asada , #barbacoa{
+	background-color: #FFEA54;
+
+  	border: 1px solid black;
+  	width: 95%;
+  	padding-bottom: 20px;
+  	margin-top: 50px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	overflow: visible;
+}
+#cpastor, #casada , #cbarbacoa {
+	clear: both;
+	text-align: center; 
+}
+#tpastor{
+	background: #FF5454;
+	color:  white;
+	font-size: 125%;
+	width: 25%;
+	border: 1px solid black;
+	padding-left: 5px;
+	position: relative;
+	float: right;
+}
+#tasada{
+	background: #7AF34D;
+	border: 1px solid black;
+	color:  black;
+	font-size: 125%;
+	width: 25%;
+	border: 1px solid black;
+	padding-left: 5px;
+	position: relative;
+	float: right;
+}
+#tbarbacoa{
+	background: #F34D55;
+	border: 1px solid black;
+	color:  white;
+	font-size: 125%;
+	width: 30%;
+	border: 1px solid black;
+	padding-left: 5px;
+	position: relative;
+	float: right;
+}
+@media(min-width: 992px){
+	#pastor , #asada , #barbacoa{
+		width: 30%;
+		float: left;
+		margin-right: 1.5%;
+		margin-left: 1.5%;
+		padding: 0px 5px 20px 5px;
+
+
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#pastor , #asada{
+		width: 43%;
+		float: left;
+		margin-right: 3.3%;
+		margin-left: 3.3%;
+		padding: 0px 5px 20px 5px;
+	}
+	#barbacoa{
+		width: 92.6%;
+		float: left;
+		margin-right: 2.5%;
+		margin-left: 3.3%;
+		padding: 0px 5px 20px 5px;
+		clear: both;
+	}
+
+}
