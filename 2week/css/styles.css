@@ -66,7 +66,7 @@ body {
 		float: left;
 		margin-right: 1.5%;
 		margin-left: 1.5%;
-		padding: 0px 5px 20px 5px;
+		padding: 0px 0px 20px 0px;
 
 
 	}
@@ -77,14 +77,14 @@ body {
 		float: left;
 		margin-right: 3.3%;
 		margin-left: 3.3%;
-		padding: 0px 5px 20px 5px;
+		padding: 0px 0px 20px 0px;
 	}
 	#barbacoa{
 		width: 92.6%;
 		float: left;
 		margin-right: 2.5%;
 		margin-left: 3.3%;
-		padding: 0px 5px 20px 5px;
+		padding: 0px 0px 20px 0px;
 		clear: both;
 	}
 
