@@ -2,7 +2,6 @@ body {
 	background-color: #EAEDED;
 }
 #pollo , #carne , #sushi {
- 	text-align: center;
  	font-size: 280%;
  	padding-bottom: 15px;
 }
